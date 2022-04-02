@@ -2,9 +2,9 @@ def prime_number(n):
     if n == 2:
         return 2
 
-    for p in range(2, n**(1/2)+1):
+    for p in range(2, int(n**(1/2))+1):
         if n%p==0:
-            return
+            return ""
       
     return n
 
